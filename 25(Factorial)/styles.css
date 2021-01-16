@@ -3,22 +3,17 @@ body {
 	text-align: center;
 }
 
-input {
-	padding: 10px;
-	border-radius: 5px;
-	border: 1px solid #aaa;
-}
-
+input,
 button {
 	padding: 7px;
 	border-radius: 5px;
 	border: 1px solid #aaa;
 }
 
-#fibSeries {
+#factorial {
 	width: 70%;
 	margin: 0 auto;
-	margin-top: 20px;
-	background: #ededed;
+	background-color: #ededed;
 	padding: 10px;
+	margin-top: 20px;
 }

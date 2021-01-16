@@ -7,11 +7,11 @@ function fib() {
 
 	var n = document.getElementById('number').value;
 
-	document.getElementById('fibSeries').innerHTML += a + '<br>' + b + '<br>';
+	document.getElementById('fibSeries').innerHTML += a + ', ' + b + ', ';
 	for (var i = 3; i <= n; i++) {
 		c = a + b;
 		a = b;
 		b = c;
-		document.getElementById('fibSeries').innerHTML += c + '<br>';
+		document.getElementById('fibSeries').innerHTML += c + ', ';
 	}
 }
